@@ -1,5 +1,4 @@
 import "./App.scss";
-import { useState } from "react";
 
 function App() {
   return (
@@ -8,19 +7,18 @@ function App() {
         <h1>
           ~Brandon's 30th Party Deets~
           <br />
-          Hi hi and welcome!!
+          <span className="the-hellos">Hi hi and welcome!!</span>
         </h1>
+
+        <h2>Here to RSVP?</h2>
+        <p>
+          You can RSVP using{" "}
+          <a href="https://forms.gle/ABJtN723YUvbZSeB8" target="_blank">
+            this Google form!
+          </a>
+        </p>
       </header>
       <main>
-        <section className="rsvp">
-          <h2>Here to RSVP?</h2>
-          <p>
-            You can RSVP using{" "}
-            <a href="https://forms.gle/ABJtN723YUvbZSeB8" target="_blank">
-              this Google form!
-            </a>
-          </p>
-        </section>
         <section className="deets">
           <div className="time-location">
             <h2>Time and Place</h2>
@@ -104,35 +102,37 @@ function App() {
               Some of you are coming from far! Please ensure that you have
               secured a place to stay in advance!
             </p>
-            <p>
-              The nearest decent-looking hotel that is 10 minutes drive away
-              from the venue is:
-              <address>
-                <a
-                  href="https://maps.app.goo.gl/6Dn2GZnEEzC4U6pX6"
-                  target="_blank"
-                >
-                  Residence Inn New York The Bronx at Metro Center Atrium
-                </a>
+            <ul>
+              <li>
+                The nearest decent-looking hotel that is 10 minutes drive away
+                from the venue is:
+                <address>
+                  <a
+                    href="https://maps.app.goo.gl/6Dn2GZnEEzC4U6pX6"
+                    target="_blank"
+                  >
+                    Residence Inn New York The Bronx at Metro Center Atrium
+                  </a>
+                  <br />
+                  1776 Eastchester Rd, Bronx, NY 10461
+                </address>
+              </li>
+              <li>
+                The next decent-looking hotel that is 20 minutes drive away from
+                the venue is:
+                <address>
+                  <a
+                    href="https://maps.app.goo.gl/BsAdbGnbujWpecBe6"
+                    target="_blank"
+                  >
+                    Ramada by Wyndham Bronx
+                  </a>
+                  <br />
+                  1000 Baychester Ave, Bronx, NY 10475
+                </address>
                 <br />
-                1776 Eastchester Rd, Bronx, NY 10461
-              </address>
-            </p>
-            <p>
-              The next decent-looking hotel that is 20 minutes drive away from
-              the venue is:
-              <address>
-                <a
-                  href="https://maps.app.goo.gl/BsAdbGnbujWpecBe6"
-                  target="_blank"
-                >
-                  Ramada by Wyndham Bronx
-                </a>
-                <br />
-                1000 Baychester Ave, Bronx, NY 10475
-              </address>
-              <br />
-            </p>
+              </li>
+            </ul>
           </div>
         </section>
       </main>

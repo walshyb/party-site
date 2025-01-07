@@ -11,9 +11,9 @@ body {
 }
 
 body {
-}
-
-p {
+  background-image: url(./images/background.png);
+  font-family: "Work Sans", "Lato", "Helvetica", "Arial", sans-serif;
+  line-height: 1.6;
 }
 
 h1,
@@ -21,10 +21,29 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: "Poetsen One", "Poppins", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+  line-height: 1.2;
+  margin: 1em 0 0.5em;
 }
 
+p,
+li {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0.5em 0;
+}
+
+/* Headings */
 h1 {
+  font-size: 2.5rem; /* Largest heading for main titles */
 }
 
 h2 {
+  font-size: 2rem; /* Secondary titles */
+}
+
+h3 {
+  font-size: 1.5rem; /* Smaller headings or sections */
 }
