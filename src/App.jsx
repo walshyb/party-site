@@ -77,19 +77,62 @@ function App() {
               </ul>
             </p>
 
-            <h3>Libations (Drinks)</h3>
+            <h3>Libations (Drinks) (updated!)</h3>
             <p>
               There will be an <strong>open bar</strong>. Please drink
               responsibly and ensure that you have secured a safe means of
               transporation back home <i>before</i> attending!!
             </p>
 
-            <h3>Food</h3>
+            <p>
+              <b>[New]</b> There will be a non-alcoholic sparkling rosé served
+              at the bar, as well.
+            </p>
+
+            <h3>Food (updated!)</h3>
             <ul>
               <li>Primarily Spanish and Carribean dishes!</li>
               <li>
-                Final menu has not been selected, but I am planning to include a
-                gluten-free dish and a non-meat dish!
+                <b>[New]</b> Final menu has been selected! We have 5 meat
+                dishes, and 5 vegetarian dishes (4 of which are vegan). 6 of
+                these items are gluten free. Here is the menu:
+                <ol>
+                  <li>Chicharrones de Pollo [Fried Chicken Chunks]</li>
+                  <li>
+                    Ropa Vieja <b>(gf)</b>
+                  </li>
+                  <li>
+                    Pernil [Roasted Pork] <b>(gf)</b>
+                  </li>
+                  <li>
+                    Arroz con Gandules [Rice mixed with beans] <b>(gf) (vgn)</b>
+                  </li>
+                  <li>
+                    Tostones [Fried Plantains] <b>(gf) (vgn)</b>
+                  </li>
+                  <li>Curry Goat</li>
+                  <li>
+                    Linguine with Pesto <b>(vgt)</b>
+                  </li>
+                  <li>
+                    Roasted Vegetable Medley [String beans, broccoli, carrots,
+                    garlic] <b>(gf) (vgn)</b>
+                  </li>
+                  <li>
+                    Tossed Salad <b>(gf) (vgn)</b>
+                  </li>
+                  <li>
+                    Jerk Chicken <b>(maybe gf?)</b>
+                  </li>
+                </ol>
+                <div className="legend">
+                  Gluten Free: <b>gf</b>
+                  <br />
+                  Vegan: <b>vgn</b>
+                  <br />
+                  Vegetarian: <b>vgt</b>
+                  <br />
+                </div>
               </li>
             </ul>
 
